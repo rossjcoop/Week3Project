@@ -12,10 +12,33 @@ body {
 
 
 main {
-	width: 500px;
+	width: 600px;
 	height: 600px;
 	margin: 0 auto;
 	font-family: 'VT323', monospace;
+}
+
+.lside {
+	width: 10px;
+	height: 600px;
+	font-size: 84px;
+	-webkit-transform: rotate(-90deg);
+	float: left;
+	color: blue;
+	text-shadow: 2px 2px red;
+
+}
+
+.rside {
+	width: 10px;
+	height: 600px;
+	font-size: 84px;
+	-webkit-transform: rotate(+90deg);
+	float: right;
+	color: blue;
+	text-shadow: 2px 2px red;
+	margin-top: -800px;
+
 }
 
 #calculator {
@@ -59,7 +82,7 @@ p {
 	display: inline;
 	font-family: 'VT323', monospace;
 	color: blue;
-	text-shadow: 2px 2px #FF0000;
+	text-shadow: 2px 2px red;
 	text-overflow: ellipsis;
 }
 
