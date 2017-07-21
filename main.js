@@ -1,6 +1,3 @@
-
-
-
 let buttonDisplay = ""
 let calculator = document.getElementById("calculator")
 let result = ""
@@ -75,76 +72,28 @@ else if(buttonClick === "9"){
 
 
 else if(buttonClick === "+"){
-	//buttonDisplay += runningTotal ////maybe function needed
+	
 	
 	buttonDisplay = ""
 	result += "+"
-
-
-
-	//convert buttonDisplay into a real number hint use parseFloat(buttonDisplay)  
-	//let holdMyBeer = parseFloat(buttonDisplay)
-	//if runningTotal === 0, just put buttonDisplay in there
-	//if(result = 0){
-		//result = holdMyBeer
-	//}
-	//else add runningTotal to buttonDisplay Number and store in runningTotal
-	//else{
-		//result += holdMyBeer
-	//}
-
-
-	//set operator to an empty string
-	//operator = ""
-	//set buttonDisplay to an empty string		
+		
 	
 }
 else if(buttonClick === "-"){
 
 	buttonDisplay = ""
 	result += "-"
-
-
-
-
-// 	let holdMyBeer = parseFloat(buttonDisplay)
-// 	if(result = 0){
-// 		result = holdMyBeer
-// 	}
-// 	else{
-// 		result -= holdMyBeer
-// 	}
-
-// 	buttonDisplay = ""
 }
 else if(buttonClick === "*"){
 
 	buttonDisplay = ""
 	result += "*"
-// 	let holdMyBeer = parseFloat(buttonDisplay)
-// 	if(result = 0){
-// 		result = holdMyBeer
-// 	}
-// 	else{
-// 		result *= holdMyBeer
-// 	}
 
-// 	buttonDisplay = ""
 }
 else if(buttonClick === "/"){
 
 	buttonDisplay = ""
 	result += "/"
-
-// 	let holdMyBeer = parseFloat(buttonDisplay)
-// 	if(result = 0){
-// 		result = holdMyBeer
-// 	}
-// 	else{
-// 		result /= holdMyBeer
-// 	}
-
-// 	buttonDisplay = ""
 }
 else if(buttonClick === "="){
 	
@@ -157,111 +106,17 @@ else if(buttonClick === "C"){
 	result = ""
 }
 
-
-
-
 let mainDisplay = document.getElementById("mainDisplay")
-
-
-
-
-
 
 
 let mainDisplayBlock = `
 
-	<p>${buttonDisplay}</p>
-
+	<p class = "buttondisplay">${buttonDisplay}</p>
 
 `
 
 mainDisplay.innerHTML = mainDisplayBlock
 
-
 })
-
-
-////////////////////////////
-
-
-//3. What to do if a button is clicked.
-///Probably have to "port" these numbers over each time they are clicked to the operators, but in the mean time, they can display until the operators are used.
-
-///Maybe mainDisplay can just be console.logged??
-
-//How it should work in order: 
-//Button Click
-//Displays number And/Or decimal in mainDisplay
-//Places that number into a field, and keeps concatenating numbers And/Or decimals as they are clicked in the buttonDisplay variable UNTIL an operator is used, then that number is sent to the runningTotal variable.		 
-
-
-
-/////////////////////////NUMERALS//////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//1.Need to write a function that takes an input, display the input.
-//function displayscreen(){
-	//let display = 0
-	//if(button)
-
-//}
-
-
-
-
-
-
-
-
-
-
-
-//2. After you receive that input you need to
-/////a) Display the input.
-/////b) 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/////////////////////////////DISPLAY/////////////
-
-
-	
-
-
-
-
-
-
-
-
-
 
 
